@@ -38,4 +38,29 @@ Understanding Amazon's stock performance is not just about financial analysis; i
 
 
 ## Analysis Insights
-- On any given day, the company's value is
+- On any given day, the company's value is just as likely to increase as it is to decrease.
+
+  
+![Image 1](Images/Picture1.png)
+
+- July 2021 had the highest closing value.
+  
+
+![Image 2](Images/Picture2.png)
+  
+- There is a very strong linear relationship between the daily High and Low values. As one variable increases/decreases, so does the other. With an R-squared value very close to 1, almost all the variability in one variable can be explained by the variability in the other.
+
+![Image 3](Images/Picture3.png)
+  
+- Half of the time, the number of units traded in a day was roughly between 1.5 and 3.0 million and the other half of the time, roughly between 3.0 and 10.0 million units were traded. Usually, 5.7 million or fewer units were traded in a day but one day in the year saw as many as 10 million units traded.
+
+![Image 4](Images/Picture4.png)
+  
+- Maximum trading occurred on 30th July 2021 with approximately 9.96 million units traded that day. Minimum trading occurred on 24th December 2020 with approximately 1.45 million units traded that day. There does not seem to be any particular pattern with respect to the number of units being traded throughout the year. Most days see the trading of between 2 and 6 million units. The number of Amazon units traded dropped from 9.96 million to 2.18 million from 30th July 2021 to 4th August 2021.
+
+![Image 5](Images/Picture5.png)
+  
+- Although it's not always perfect, there does appear to be a relationship between the daily High-Low difference and the number of units traded. Loosely speaking, when the High-Low difference is larger, more units are traded. Conversely, when the High-Low difference is smaller, fewer units are traded.
+
+
+![Image 6](Images/Picture6.png)
